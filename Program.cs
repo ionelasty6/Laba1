@@ -26,6 +26,20 @@ class Program
         Console.WriteLine($"{uahAmount} UAH = {usdAmount} USD");
         Console.WriteLine($"{usdAmount} USD = {uahConverted} UAH");
 
+        // Створення екземпляру класу Employee
+        Employee employee = new Employee("Петров", "Іван");
+        employee.SetPositionAndExperience("Розробник", 5);
+
+        // Виведення інформації про співробітника
+        employee.PrintEmployeeInfo();
+
+        // Створення екземпляру класу User
+        User user = new User("user123", "Юрій", "Ковальов");
+        user.Age = 30;
+
+        // Виведення інформації про користувача
+        user.PrintUserInfo();
+
         Console.ReadLine();
     }
 }

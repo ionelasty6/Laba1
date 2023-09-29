@@ -40,6 +40,12 @@ class Program
         // Виведення інформації про користувача
         user.PrintUserInfo();
 
+        // Створення екземпляру класу Product
+        Product product = new Product("Лаптоп", 1200.0);
+
+        // Виведення інформації про товар
+        product.PrintProductInfo();
+
         Console.ReadLine();
     }
 }
